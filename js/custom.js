@@ -30,7 +30,7 @@
             }
         });
 
-		// brands carousel
+		// home - places slider
 		$('.places-slider').owlCarousel({
 			loop: true,
 			margin: 0,
@@ -48,14 +48,17 @@
 			}
 		});
 
-		// services carousel
-		$('.services-list-carousel').owlCarousel({
+		// itinerary - tour summary carousel
+		$('.tour-summary-carousel').owlCarousel({
 			loop: true,
-			margin: 45,
-			nav: false,
+			margin: 0,
 			autoplay: true,
 			autoplayHoverPause: true,
-			navText: ['Prev', 'Next'],
+			nav: true,
+			navText: [
+				'<i class="fa fa-angle-left" aria-hidden="true"></i>',
+				'<i class="fa fa-angle-right" aria-hidden="true"></i>'
+			],
 			controls: false,
 			// center:true,
 			autoplayTimeout: 2000,
@@ -73,19 +76,20 @@
 					items: 2
 				},
 				767: {
-					items: 2
+					items: 3
 				},
 				992: {
-					items: 2
+					items: 4
 				},
 				1199: {
-					items: 2
+					items: 4
 				},
 				2000: {
-					items: 2
+					items: 4
 				}
 			}
 		});
+
 
 		//gallery
 		var $grid = $('.grid').isotope({
