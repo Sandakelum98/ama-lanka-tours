@@ -545,10 +545,6 @@ ul {
 	width: 100%;
 }
 /*footer*/
-.footer {
-	background-image: url("img/footer-bg.png");
-	background-position: -190px top;
-}
 .contact-info-item {
 	display: flex;
 	align-items: center;
@@ -579,7 +575,7 @@ ul {
 	padding: 0 120px;
 }
 
-/*service single page*/
+/*itinerary single page*/
 .service-hero-section {
 	position: relative;
 	padding: 140px 0 110px;
@@ -749,14 +745,7 @@ ul {
 	font-weight: 700;
 }
 
-/*itineraries*/
-.itineraries-des-section {
-	background-image: url("img/bg-itineraries-desc.png");
-	background-position: center right;
-}
-.itineraries-des-left {
-	padding-right: 30px;
-}
+
 /*about us*/
 .travel-experience-section {
 	background-image: url("img/intro-bg.png");
@@ -787,28 +776,26 @@ ul {
 }
 /*contact us*/
 .contact-form-section {
-	background-image: url("img/intro-bg.png");
-	background-position: top right;
+
 }
-.contact-vector {
-	padding: 40px 0 40px 100px;
+.contact-info-container {
+	padding-top: 280px;
 }
 .contact-info {
 	margin-bottom: 20px;
 }
 .contact-info a {
 	font-weight: 700;
-	/*text-underline: 1px solid #e88f3d;*/
 }
-.contact-info.phone a {
-	color: #e88f3d;
-}
-.contact-info.email a {
-	color: #2e4492;
-}
+/*.contact-info.phone a {*/
+/*	color: #e88f3d;*/
+/*}*/
+/*.contact-info.email a {*/
+/*	color: #2e4492;*/
+/*}*/
 .form-container {
 	padding: 50px 40px;
-	background-color: #7fbab8;
+	background-color: #48a5bf;
 }
 .form-group {
 	margin-bottom: 20px;
@@ -831,11 +818,11 @@ ul {
 	border-radius: 10px;
 	font-size: 16px;
 }
-/*plan your trip*/
-.plan-trip-form-section {
-	background-image: url("img/intro-bg.png");
-	background-position: top right;
+.yellow-border-top {
+	border-top: 10px solid #f4eb64;
 }
+
+/*plan your trip*/
 .plan-trip-vector {
 	padding: 35px 0 0 30px;
 }
