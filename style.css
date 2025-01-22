@@ -830,6 +830,85 @@ ul {
 	padding-left: 50px;
 }
 
+/*travel information*/
+.underlined-title {
+	position: relative;
+	padding-bottom: 8px;
+	margin-bottom: 20px;
+}
+.underlined-title:before {
+	content: '';
+	width: 100%;
+	height: 4px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-radius: 5px;
+}
+.underlined-title.orange:before{
+	background-color: #f3b87d;
+}
+.underlined-title.yellow:before{
+	background-color: #faf06f;
+}
+.underlined-title.blue:before{
+	background-color: #48a5bf;
+}
+
+.travel-info-padding-container {
+	padding: 0 150px;
+}
+.quick-facts-content {
+	background-color: #48a5bf;
+	padding: 80px 150px 70px;
+}
+.quick-facts-content p {
+	margin-bottom: 13px;
+}
+.travel-info-detail-item {
+	margin-bottom: 50px;
+}
+.icon-title-cont {
+	display: flex;
+	align-items: center;
+}
+.icon-title-cont h3 {
+	font-size: 22px;
+}
+.title-icon {
+	margin-right: 15px;
+}
+.travel-info-detail-content p {
+	margin-bottom: 15px;
+}
+/*things to do page*/
+.to-do-item {
+	margin-bottom: 30px;
+}
+.to-do-item img {
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+}
+.to-do-content {
+	padding: 40px 30px;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+}
+.to-do-title {
+	font-size: 22px;
+	line-height: 35px;
+	margin-bottom: 12px;
+}
+.to-do-desc {
+	margin-bottom: 25px;
+}
+.to-do-content li {
+	margin-bottom: 13px;
+}
+
+
+
 /*blog list*/
 .blog-list-section {
 	background-image: url("img/intro-bg.png");
@@ -916,66 +995,7 @@ ul {
 .post-detail-desc h3 {
 	margin: 50px 0 30px;
 }
-/*travel information*/
-.travel-info-intro-section {
-	background-image: url(img/intro-bg.png);
-	background-position: top right;
-}
-.travel-info-padding-container {
-	padding: 0 150px;
-}
-.quick-facts-content {
-	background-color: #7fbab8;
-	padding: 80px 150px 70px;
-}
-.quick-facts-content p {
-	margin-bottom: 13px;
-}
-.travel-info-detail-item {
-	margin-bottom: 50px;
-}
-.icon-title-cont {
-	display: flex;
-	align-items: center;
-}
-.icon-title-cont h3 {
-	font-size: 22px;
-}
-.title-icon {
-	margin-right: 15px;
-}
-.travel-info-detail-content p {
-	margin-bottom: 15px;
-}
-/*things to do page*/
-.to-do-list-section {
-	background-image: url(img/intro-bg.png);
-	background-position: top right;
-}
-.to-do-item {
-	margin-bottom: 30px;
-}
-.to-do-item img {
-	width: 100%;
-	height: 350px;
-	object-fit: cover;
-}
-.to-do-content {
-	padding: 40px 30px;
-	border: 1px solid #cccccc;
-	background-color: #ffffff;
-}
-.to-do-title {
-	font-size: 22px;
-	line-height: 35px;
-	margin-bottom: 12px;
-}
-.to-do-desc {
-	margin-bottom: 25px;
-}
-.to-do-content li {
-	margin-bottom: 13px;
-}
+
 
 
 @media (min-width: 1200px) {
