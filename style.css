@@ -703,7 +703,7 @@ ul {
 	font-size: 22px;
 	color: #157d9b;
 }
-/*price-includes-section*/
+/* - price-includes-section*/
 .dot-list li {
 	color: #ffffff;
 	padding-left: 30px;
@@ -723,7 +723,7 @@ ul {
 .map-box {
 	border: 6px solid #ffffff;
 }
-/*book-now-section*/
+/* - book-now-section*/
 .book-now-section {
 	position: relative;
 }
@@ -745,35 +745,6 @@ ul {
 	font-weight: 700;
 }
 
-
-/*about us*/
-.travel-experience-section {
-	background-image: url("img/intro-bg.png");
-	background-position: top right;
-}
-.travel-experience-left {
-	padding-right: 50px;
-}
-.why-choose-container {
-	padding: 70px 50px 30px;
-}
-.why-choose-box {
-	display: flex;
-	margin-bottom: 40px;
-}
-.why-choose-box-icon {
-	width: fit-content;
-	height: fit-content;
-}
-.why-choose-box-content {
-	padding: 0 20px 0 30px;
-}
-.why-choose-box-title {
-	font-size: 20px;
-}
-.commitment-left {
-	padding-right: 20px;
-}
 /*contact us*/
 .contact-form-section {
 
@@ -907,8 +878,58 @@ ul {
 	margin-bottom: 13px;
 }
 
+/*vehicle rent page*/
+.car-rent-item {
+	padding-bottom: 100px;
+}
+.car-rent-item:last-child {
+	padding-bottom: 0px;
+}
+.car-rent-left {
+	padding-right: 20px;
+}
+/*airport transfer page*/
+.airport-transfer-left {
+	padding-right: 40px;
+}
+.transfer-vehicle-left {
+	padding-right: 40px;
+}
+.transfer-vehicle-right {
+	padding-left: 50px;
+}
+.transfer-vehicle-list img {
+	padding-bottom: 30px;
+}
 
-
+/*about us*/
+.travel-experience-section {
+	background-image: url("img/intro-bg.png");
+	background-position: top right;
+}
+.travel-experience-left {
+	padding-right: 50px;
+}
+.why-choose-container {
+	padding: 70px 50px 30px;
+}
+.why-choose-box {
+	display: flex;
+	margin-bottom: 40px;
+}
+.why-choose-box-icon {
+	width: fit-content;
+	height: fit-content;
+}
+.why-choose-box-content {
+	padding: 0 20px 0 30px;
+}
+.why-choose-box-title {
+	font-size: 20px;
+}
+.commitment-left {
+	padding-right: 20px;
+}
 /*blog list*/
 .blog-list-section {
 	background-image: url("img/intro-bg.png");
